@@ -1,0 +1,38 @@
+textarea {
+    min-height: 400px;
+}
+
+.email {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email p {
+    margin: 5px 0;
+}
+
+.email .sender {
+    margin-right: 10px;
+}
+
+.email .subject {
+    flex-grow: 1;
+}
+
+.email .timestamp {
+    margin-left: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: blue;
+  }
